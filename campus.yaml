@@ -1,0 +1,11 @@
+# 校园设施检测数据集配置文件
+path: D:/Desgin/Projects/NanyangAI_Competition/datasets
+train: images/train
+val: images/train  # 验证集先用训练集，等数据多了再拆分
+
+# 类别定义
+names:
+  0: trash_can
+  1: fire_hydrant
+  2: manhole_cover
+  3: air_conditioner
